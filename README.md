@@ -41,6 +41,17 @@ To install and set up the extension for development:
   2. Select Site settings.
   3. Enable microphone permission by switching it to Allow.
 
+## Demo
+
+Check out how the extension works in action!
+
+![Real-Time Speech to Text](/extension/src/assets/demo-1.jpg)
+![Summary](/extension/src/assets/demo-2.jpg)
+![Translation](/extension/src/assets/demo-3.jpg)
+![Quiz Generation](/extension/src/assets/demo-4.jpg)
+
+🎥 Watch the full demo on [YouTube](https://youtu.be/lanxGoTjnBk).  
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
