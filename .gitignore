@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+
+# Chrome extension artifacts
+extension.crx

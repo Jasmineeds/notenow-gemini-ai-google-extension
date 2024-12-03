@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "minimum_chrome_version": "116",
+  "name": "NoteNow",
+  "version": "1.0",
+  "description": "Capture, summarize, and transform live recordings into summaries, quizzes, and translations for smarter, multilingual learning.",
+  "author": "jasmine.huang@utexas.edu",
+  "permissions": [
+    "sidePanel",
+    "offscreen",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "src/sidepanel/sidepanel.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "src/offscreen/offscreen.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "side_panel": {
+    "default_path": "src/sidepanel/sidepanel.html"
+  },
+  "icons": {
+    "16": "src/assets/icon-16.png",
+    "48": "src/assets/icon-48.png",
+    "128": "src/assets/icon-128.png"
+  },
+  "action": {
+    "default_icon": "src/assets/icon-48.png"
+  }
+}
