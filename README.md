@@ -35,6 +35,12 @@ To install and set up the extension for development:
 - **Load the Extension:**  
   Click **Load unpacked** on the Extensions page and select the folder with the unzipped extension files.
 
+- **Enable Microphone Access:**  
+  The extension requires access to your microphone for audio recording. Grant microphone permissions:
+  1. Go to the right of the address bar in the NoteNow extension settings and click "More".
+  2. Select Site settings.
+  3. Enable microphone permission by switching it to Allow.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.

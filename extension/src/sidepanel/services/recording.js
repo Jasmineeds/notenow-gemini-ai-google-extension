@@ -15,7 +15,7 @@ export class AudioRecording {
     } catch (error) {
       console.error('Microphone permission error:', error);
       alert("Microphone access is required for this feature.\n\n" +
-        "1. Please go to the right of the address bar, click \"More\".\n" +
+        "1. Please go to the right of the address bar in the NoteNow extension setting, click \"More\".\n" +
         "2. Select Site settings.\n" +
         "3. Enable microphone permission by switching it to Allow.");
       return false;
